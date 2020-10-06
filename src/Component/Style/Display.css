@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.input-table{
+    height: 100%;
+    background-size: cover;
+}
+
+.display{
+    display: flex;
+   
+    
+}
+.display .weather{
+    text-align: center;
+    line-height: 5em;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-bottom: 4em;
+    color: 	black;
+    border-radius: 16px;
+    height: 550px;
+    width: 35%;
+    border-bottom: 3px solid #DF8E00;
+    background-color:rgba( 255, 255, 255, 0.5 );
+}
+.display .weather-1{
+    text-align: center;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 16px;
+    height: 550px;
+    width: 65%;
+    border-bottom: 3px solid #DF8E00;
+    background-color:  rgba( 255, 255, 255, 0.5 );
+}
+.display .weather .city {
+    font-weight: bold;
+    font-size: 4em;
+}
+.display .weather .date{
+    font-size: 1.5em;
+}
+.display .weather .icon{
+    font-size: 5em;
+}
+.display .weather .temp{
+    font-weight: bold;
+    font-size: 5em;
+}
+.display .weather .cuaca{
+    font-weight: bold;
+    font-size: 2em;
+}
+.display .weather .temp-2{
+    font-size: 1.3em;
+}
+
+.bg1{
+    background-image: url(../assets/bg-1.gif);
+    background-size: cover;
+    background-position: bottom;
+}
+.bg2{
+    background-image: url(../assets//salju.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.bg3{
+    background-image: url(../assets/kabut.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.bg4{
+    background-image: url(../assets/musim\ panas.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+@media screen and (max-width: 480px){
+    .display {
+      display: flex;  
+      width: 90%;
+      font-size: 9px;
+      height: 100%;
+    }
+    .input-table{
+        width: 100%;
+    }
+    .weather{
+        width: 100%;
+    }
+}

@@ -1,0 +1,13 @@
+
+.scroll{
+    width: 100%;
+    margin: auto;
+    height: 545px;
+    overflow-y: scroll;
+    outline: none;
+    border: none;
+
+}
+.table{
+    color: silver;
+}
